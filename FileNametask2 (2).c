@@ -1,0 +1,129 @@
+//#include <stdio.h>
+//int main()
+//{
+//	printf("123\n"); //подзадание 1
+//
+//}
+// 
+//#include <stdio.h>
+//int main()
+//{
+//	printf("1\n2\n3\n\n"); //подзадание 2
+//
+//}
+// 
+//#include <stdio.h>
+//int main()
+//{
+//    printf("\t1\n\t\t2\n\t\t\t3\n"); //подзадание 3
+//    return 0;
+//}
+
+//#include <stdio.h>
+//int main()
+//{
+//    printf("%1d\n%4d\n%7d\n%10d\n", 1, 2, 3, 4); //подзадание 4
+//    return 0;
+//}
+
+//#include <stdio.h>
+//int main()
+//{
+//    printf("%10.3f\n ", 12.234657); //подзадание 5
+//    return 0;
+//}
+
+//#include <stdio.h>
+//int main()
+//{
+//    printf("%10.5f\n ", 12.234657); //подзадание 6
+//    return 0;
+//}
+
+//#include <stdio.h>
+//#include <locale.h>
+//
+//int main()
+//{
+//    setlocale(LC_ALL, "Rus");
+//
+//    printf("Остаток от деления %d на %d равен %d\n", 5, 2, 5 % 2); // подзадание 7
+//
+//    return 0;
+//}
+
+//#include <stdio.h>
+//#include <locale.h>
+//
+//int main()
+//{
+//    setlocale(LC_ALL, "Rus");
+//
+//    printf("Остаток от деления %d на %d равен %d\n", 7, 5, 7 % 5); // подзадание 8
+//
+//    return 0;
+//}
+
+//#include <stdio.h>
+//#include <locale.h>
+//
+//int main()
+//{
+//    setlocale(LC_ALL, "Rus");
+//
+//    printf("Результат умножения %d на %d равен %d\n", 2000, 4, 2000 * 4); // подзадание 9
+//
+//    return 0;
+//}
+
+
+//#include <stdio.h>
+//#include <locale.h>
+//
+//int main()
+//{
+//    setlocale(LC_ALL, "Rus");
+//
+//    printf("%g разделить %e равно %f\n ", 5., 2000000., 5. / 2000000);  // подзадание 10
+//
+//    return 0;
+//}
+
+
+
+
+//#include <stdio.h>
+//#include <locale.h>
+//int main()
+//{
+//    setlocale(LC_ALL, "Rus");
+//    printf("%g разделить %e равно %f\n", 5., 2000000., 5. / 2000000); // подзадание 10
+//    printf("%f разделить %f равно %f\n", 5., 2000000., 5. / 2000000);
+//    printf("%g разделить %g равно %g\n", 5., 2000000., 5. / 2000000);
+//    printf("%e разделить %e равно %e\n", 5., 2000000., 5. / 2000000);
+//    return 0;
+//}
+ 
+ 
+ 
+
+//#include <stdio.h>
+//#include <locale.h>
+//int main()
+//{
+//    setlocale(LC_ALL, "Rus");
+//    printf("123\n"); // подзадание 1
+//    printf("1\n2\n3\n"); // подзадание 2 
+//    printf("\t1\n\t\t2\n\t\t\t3\n"); //подзадание 3
+//    printf("%1d\n%4d\n%7d\n%10d\n", 1, 2, 3, 4); // подзадание 4
+//    printf("%10.3f\n ", 12.234657); // подзадание 5
+//    printf("%10.5f\n ", 12.234657); // подзадание 6
+//    printf("Остаток от деления %d на %d равен %d\n", 5, 2, 5 % 2); // подзадание 7
+//    printf("Остаток от деления %d на %d равен %d\n", 7, 5, 7 % 5); // подзадание 8
+//    printf("Умножение  %d на %d равно  %d\n", 2000, 4, 2000 * 4); // подзадание 9
+//    printf("%g разделить %e равно %f\n", 5., 2000000., 5. / 2000000); // подзадание 10
+//    printf("%f разделить %f равно %f\n", 5., 2000000., 5. / 2000000);// подзадание 10
+//    printf("%g разделить %g равно %g\n", 5., 2000000., 5. / 2000000);// подзадание 10
+//    printf("%e разделить %e равно %e\n", 5., 2000000., 5. / 2000000);// подзадание 10
+//    return 0;
+//}
