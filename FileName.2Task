@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <locale.h>
+
+int main()
+{
+	int N,K;
+	N = 21;
+	K = 38;
+	setlocale(LC_ALL, "");
+	printf("Ñåé÷àñ %d ÷àñîâ %d ìèíóò 00 ñåêóíä \n ", N, K);
+	printf("Èäåò %d ìèíóòà ñóòîê \n",N*60+K+1);
+	int doplun;
+	doplun = 24 * 60 - (N * 60 + K);
+	printf("Äî ïîëóíî÷è îñòàëîñü %d ÷àñîâ è %d ìèíóò \n", doplun / 60, doplun % 60);
+	int gohours;
+	gohours = (N * 60 + K - 8 * 60) * 60;
+	printf("Ñ 8:00 ïðîøëî %d ñåêóíä \n ",gohours);
+	printf(" Òåêóùèé ÷àñ = %.2f è òåêóùàÿ ìèíóòà = %.2f ÷àñà \n ", N / 24.0, K / 60.0);
+	return 0;
+
+}
