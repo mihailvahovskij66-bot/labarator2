@@ -1,17 +1,3 @@
-//#include <stdio.h>
-//int main() {
-//    int n = 323;     
-//    int L = 4;   
-//    int k = 5;    
-//    int m = 1;     
-//    float result = (float)n / L;  
-//    printf("%*.*f\n", k + m + 1, m, result);
-//    return 0;
-//}
-
-
-
-
 #include <stdio.h> 
 #include <locale.h> 
 int main()
@@ -22,11 +8,11 @@ int main()
     int k = 5;
     int m = 1;
     int pole = k + m + 2;
-    printf("Äàíî:\n"
+    printf("Ã„Ã Ã­Ã®:\n"
         "%12.0f\n"
         "%12.0f\n"
         "        __________\n"
-        "Îòâåò:\n"
+        "ÃÃ²Ã¢Ã¥Ã²:\n"
         "        %+0*.*f\n",
         n, L, pole, m, n / L);
     return 0;
